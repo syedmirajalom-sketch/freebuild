@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+  font-family: sans-serif;
+}
+
+#crosshair {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#menu {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+input[type=range] {
+  vertical-align: middle;
+}
